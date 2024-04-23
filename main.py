@@ -50,6 +50,3 @@ def send_email():
     server.quit()
 
     return 'Email sent successfully!'
-
-if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')
